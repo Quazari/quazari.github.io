@@ -1273,13 +1273,14 @@ input, select, textarea {
 
 			#header > *:before {
 				content: '';
-				display: block;
+				/* display: block; */
+				display: none;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				/* background: #ffffff; */
 			}
 
 		#header > :first-child {
@@ -1349,7 +1350,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				/* border-left: solid 1px #ffffff; */
 			}
 
 				#header nav ul li:first-child {
@@ -1378,13 +1379,14 @@ input, select, textarea {
 
 		#header nav.use-middle:after {
 			content: '';
-			display: block;
+			/* display: block; */
+			display: none;
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			/* background: #ffffff; */
 		}
 
 		#header nav.use-middle ul li.is-middle {
