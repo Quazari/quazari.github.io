@@ -1351,6 +1351,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				/* border-left: solid 1px #ffffff; */
+				background-color:rgba(0, 0, 0, 0.5)
 			}
 
 				#header nav ul li:first-child {
